@@ -245,7 +245,7 @@ vendor.audio_hal.period_multiplier=3
 
 #ADM Buffering size in ms
 PRODUCT_PROPERTY_OVERRIDES += \
-vendor.audio.adm.buffering.ms=2
+vendor.audio.adm.buffering.ms=6
 
 #enable AAC frame ctl for A2DP sinks
 PRODUCT_PROPERTY_OVERRIDES += \
