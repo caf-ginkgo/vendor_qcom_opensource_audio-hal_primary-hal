@@ -8,7 +8,7 @@ ifneq ($(TARGET_USES_AOSP_FOR_AUDIO), true)
 USE_CUSTOM_AUDIO_POLICY := 1
 AUDIO_FEATURE_QSSI_COMPLIANCE := true
 AUDIO_FEATURE_ENABLED_COMPRESS_CAPTURE := false
-AUDIO_FEATURE_ENABLED_COMPRESS_VOIP := false
+AUDIO_FEATURE_ENABLED_COMPRESS_VOIP := true
 AUDIO_FEATURE_ENABLED_DYNAMIC_ECNS := true
 AUDIO_FEATURE_ENABLED_EXTN_FORMATS := true
 AUDIO_FEATURE_ENABLED_EXTN_FLAC_DECODER := true
@@ -268,7 +268,7 @@ vendor.audio.feature.battery_listener.enable=false \
 vendor.audio.feature.compr_cap.enable=false \
 vendor.audio.feature.compress_in.enable=false \
 vendor.audio.feature.compress_meta_data.enable=true \
-vendor.audio.feature.compr_voip.enable=false \
+vendor.audio.feature.compr_voip.enable=true \
 vendor.audio.feature.concurrent_capture.enable=false \
 vendor.audio.feature.custom_stereo.enable=true \
 vendor.audio.feature.display_port.enable=true \
