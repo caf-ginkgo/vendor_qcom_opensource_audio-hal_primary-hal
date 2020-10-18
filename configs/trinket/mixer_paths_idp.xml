@@ -287,8 +287,8 @@
     <ctl name="WSA_RX_0_VI_FB_RCH_MUX" value="ZERO" />
     <ctl name="SpkrLeft COMP Switch" value="0" />
     <ctl name="SpkrRight COMP Switch" value="0" />
-    <ctl name="SpkrLeft BOOST Switch" value="0" />
-    <ctl name="SpkrRight BOOST Switch" value="0" />
+    <ctl name="SpkrLeft BOOST Switch" value="1" />
+    <ctl name="SpkrRight BOOST Switch" value="1" />
     <ctl name="SpkrLeft VISENSE Switch" value="0" />
     <ctl name="SpkrRight VISENSE Switch" value="0" />
     <ctl name="SpkrLeft SWR DAC_Port Switch" value="0" />
@@ -357,11 +357,11 @@
     <ctl name="TX SMIC MUX7" value="ZERO" />
 
     <!-- Volume controls -->
-    <ctl name="WSA_RX0 Digital Volume" value="84" />
-    <ctl name="WSA_RX1 Digital Volume" value="84" />
-    <ctl name="RX_RX0 Digital Volume" value="84" />
-    <ctl name="RX_RX1 Digital Volume" value="84" />
-    <ctl name="RX_RX2 Digital Volume" value="84" />
+    <ctl name="WSA_RX0 Digital Volume" value="86" />
+    <ctl name="WSA_RX1 Digital Volume" value="86" />
+    <ctl name="RX_RX0 Digital Volume" value="86" />
+    <ctl name="RX_RX1 Digital Volume" value="86" />
+    <ctl name="RX_RX2 Digital Volume" value="86" />
     <ctl name="HPHL Volume" value="20" />
     <ctl name="HPHR Volume" value="20" />
     <ctl name="EAR SPKR PA Gain" value="G_DEFAULT" />
